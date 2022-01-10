@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>basket</title>
+    <link rel="stylesheet" href="css/basket/style.css">
+    <script async src="./js/basket.js"></script>
+    <script async src="./js/header.js"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="container intro-background">
+            <div class="header-inner">
+                <a href="../index.html">
+                    <div class="header-logo">
+                        <img class="logo" src="./image/Logo.png" 
+                        width="34"
+                        height="34"
+                        alt="">
+                    </div>
+                </a>
+                <nav class="header-nav">
+                    <a href="menu.html" class="nav">Ассортимент</a>
+                    <a href="#" class="nav contact">Контакты</a>
+                    <a href="#" class="nav call"  >Обратная связь</a>
+                    <input  type="tel" maxlength="10" class="nav-call" placeholder="введите номер" >
+                    <input type="submit" class="nav-call-sub">
+                </nav>
+                <a href="./basket.html">
+                    <div class="header-basket">
+                        <div class="basket"><span class="basket-number"></span></div>
+                    </div>
+                </a>
+            </div>
+        <div class= basket-loc>
+            <div class="basket-nav-text">В корзине&nbsp<span id="basket-nav">3</span> товара</div>
+            <div class="basket-bloc">
+                <div class="basket-box">
+                    <div class="basket-box-order">
+                        <div class="basket-order">
+                            <div class="basket-img"></div>
+                            <div class="basket-order-price">
+                                <div class="basket-order-box">
+                                    <div class="basket-name-text basket-name"></div>
+                                    <div class="basket-name-text basket-input">
+                                        <input type="number" class="basket-change price"><span class="basket-change-text">руб</span>
+                                        <input type="number" class="basket-change weight"><span class="basket-change-text">вес/гр</span>
+                                    </div>
+                                    <div class="basket-delete"></div>
+                                </div>      
+                            </div>
+                        </div>
+                    </div>
+                    <div class="basket-all-price">
+                        <div class="basket-price-box">
+                            <div class="basket-price-text">Итого:</div>
+                            <div class="basket-price-in">10000</div>
+                            <div class="basket-price-text">руб</div>
+                        </div>
+                        <a href="ordered.html">
+                            <button class="basket-price-order-button">Оформить заказ</button>
+                        </a>
+                    </div>
+                </div>    
+            </div>
+        </div>
+            
+
+        </div>
+    </div>
+    
+        <div class="container">
+            <div class="vector">
+                <div class="contacts">
+                    <div class="contacts-box">
+                        <p class="contacts-text">Телефон: 8-800-355-15</p>
+                        <p class="contacts-text">Whatsapp: <a href="#" class="contacts-text-2">123123</a></p>
+                        <p class="contacts-text">E-mail: <a href="#" class="contacts-text-2">123123</a></p>
+                        <p class="contacts-text">Адрес: <a href="#" class="contacts-text-2">пр. Ленина 3а</a></p>
+                    </div>  
+                </div>
+            </div>
+        </div>
+
+    
+</body>
+</html>

@@ -1,0 +1,41 @@
+.vector{
+    display: block;
+    width: 1178px;
+    height: 657px;
+    background-image: url("../image/Vector.png");
+    background-position: center;
+
+}
+
+.contacts{
+    position: absolute;
+    width: 491px;
+    height: 297px;
+    background-color: white;
+    border-radius: 10px;
+    margin-left: 190px;
+    margin-top: 243px;
+}
+
+.contacts-box{
+    top: 48px;
+    margin-left: 106px;
+}
+
+.contacts-text{
+    width: 220px;
+    height: 17px;
+    font-family: 'Conv_Montserrat-Medium';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    color: #000000;
+    margin-top: 37px;
+    
+}
+
+.contacts-text-2{
+    text-decoration: none;
+    color: #000000;
+}

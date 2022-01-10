@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>меню</title>
+        <link rel="stylesheet" href="css/menu/index.css">
+        <link rel="icon" href="image/favicon.svg">
+        <script async src="js/acordeon.js"></script>
+        <script defer type='module' src="js/menu.js"></script>
+        <!-- <script defer type='module' src="js/basket.js"></script> -->
+        <script async type='module' src="js/closeModal.js"></script>
+        <script async type='module' src="js/closeBasket.js"></script>
+        <script defer src="./js/header.js"></script>
+    </head>
+</html>
+<body class="body">
+    <div class="container">
+        <div class="header-inner">
+            <a href="../index.html">
+                <div class="header-logo">
+                    <img class="logo" src="./image/Logo.png" 
+                    width="34"
+                    height="34"
+                    alt="">
+                </div>
+            </a>
+            <nav class="header-nav">
+                <a href="menu.html" class="nav">Ассортимент</a>
+                <a href="#" class="nav contact">Контакты</a>
+                <a href="#" class="nav call"  >Обратная связь</a>
+                <input  type="tel" maxlength="10" class="nav-call" placeholder="введите номер без 8" >
+                <input type="submit" class="nav-call-sub">
+            </nav>
+            
+                <div class="header-basket">
+                    <div class="basket"><span class="basket-number"></span></div>
+                </div>
+            
+            
+        </div>
+    </div>
+    <div class="separator">
+        <p class="separator-text">- Овощи -</p>
+    </div>
+    <div class="container">
+        <div class="home-page">Главная страница</div>
+        <div class="content">
+            <div class="menu-item">
+                <div class="accordion-item">
+                    <div class="menu-item-header">Овощи</div>
+                    <div class="menu-item-list vegetables">
+                        <div data-action= "eggplant" class="menu-item-content">Баклажан</div>
+                        <div data-action= "zucchini" class="menu-item-content">Кабачок</div>
+                        <div data-action= "cabbage" class="menu-item-content">Капуста</div>
+                        <div data-action= "potato" class="menu-item-content">Картофель</div>
+                        <div data-action= "onion" class="menu-item-content">Лук</div>
+                        <div data-action= "carrot" class="menu-item-content">Морковь</div>
+                        <div data-action= "cucumbers" class="menu-item-content">Огурцы</div>
+                        <div data-action= "pepper" class="menu-item-content">Перец сладкий</div>
+                        <div data-action= "tomato" class="menu-item-content">Помидоры</div>
+                        <div data-action= "radish" class="menu-item-content">Редька</div>
+                        <div data-action= "beets" class="menu-item-content">Свекла</div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <div class="menu-item-header">Фрукты</div>
+                    <div class="menu-item-list fruits">
+                        <div data-action= "qunce" class="menu-item-content">Айва</div>
+                        <div data-action= "pineapple" class="menu-item-content">Ананас</div>
+                        <div data-action= "orange" class="menu-item-content">Апельсин</div>
+                        <div data-action= "pear" class="menu-item-content">Груша</div>
+                        <div data-action= "grapefruit" class="menu-item-content">Грейпфрут</div>
+                        <div data-action= "a" class="menu-item-content">Киви</div>
+                        <div data-action= "lemon" class="menu-item-content">Лимон</div>
+                        <div data-action= "mango" class="menu-item-content">Манго</div>
+                        <div data-action= "tangerine" class="menu-item-content">Мандарин</div>
+                        <div data-action= "a" class="menu-item-content">Помело</div>
+                        <div data-action= "a" class="menu-item-content">Слива</div>
+                        <div data-action= "apple" class="menu-item-content">Яблоко</div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <div class="menu-item-header">Ягоды</div>
+                    <div class="menu-item-list berry">
+                        <div data-action= "grapes" class="menu-item-content">Виноград</div>
+                        <div data-action= "strawberry" class="menu-item-content">Клубника</div>
+                        <div data-action= "blueberry" class="menu-item-content">Малина</div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <div class="menu-item-header">Орехи</div>
+                    <div class="menu-item-list">
+                        <div data-action= "wulnut" class="menu-item-content">Грецкий орех</div>
+                    </div>
+                </div>
+            </div>
+            <div class="menu-card">
+                
+            </div>
+        </div>
+        <div class="module">
+            <img class="module-img"></img>
+            <div class="module-text-name"></div>
+            <button form="sub" class="take-basket" type="submit">Добавить в корзину</button>
+            <div class="calculate">
+                <div class="module-text">Вес</div>
+                
+                    <input type="number" class="module-text-price weight" value="1000"></input>
+                
+                <div class="module-text-last">грамм</div>
+                <div class="module-text">Сумма</div>
+            
+                    <input type="number" class="module-text-price sum"></input>
+                
+                <div class="module-text-last">руб</div>
+            </div>
+            <span class="module-close"></span>
+        </div>
+        <div class="overlay"></div>
+        <div class= basket-loc>
+            <div class="basket-nav-text">В корзине&nbsp<span id="basket-nav">3</span> товара</div>
+            <div class="basket-bloc">
+                <div class="basket-box">
+                    <div class="basket-box-order">
+                        <div class="basket-order">
+                            <div class="basket-image"></div>
+                            <div class="basket-order-price">
+                                <div class="basket-order-box">
+                                    <div class="basket-name-text basket-name"></div>
+                                    <div class="basket-name-text basket-input">
+                                        <input type="number" class="basket-change price"><span class="basket-change-text">руб</span>
+                                        <input type="number" class="basket-change weight"><span class="basket-change-text">вес/гр</span>
+                                        <div class="hide"></div>
+                                    </div>
+                                    <div class="hide"></div>
+                                    <div class="basket-delete"></div>
+                                </div>       
+                            </div>
+                           
+                        </div>
+                       
+                        
+                    </div>
+                    <div class="basket-all-price">
+                        <div class="basket-price-box">
+                            <div class="basket-price-text">Итого:</div>
+                            <div class="basket-price-in">10000</div>
+                            <div class="basket-price-text">руб</div>
+                        </div>
+                        <a href="ordered.html">
+                            <button class="basket-price-order-button">Оформить заказ</button>
+                        </a>
+                    </div>
+                </div>    
+            </div>
+            <span class="basket-close"></span>
+        </div>
+        
+        <div class="overl"></div>
+    </div>
+    
+    <div class="container">
+        <div class="vector">
+            <div class="contacts">
+                <div class="contacts-box">
+                <p class="contacts-text">Телефон: 8-800-355-15</p>
+                <p class="contacts-text">Whatsapp: <a href="#" class="contacts-text-2">123123</a></p>
+                <p class="contacts-text">E-mail: <a href="#" class="contacts-text-2">123123</a></p>
+                <p class="contacts-text">Адрес: <a href="#" class="contacts-text-2">пр. Ленина 3а</a></p>
+                </div>  
+            </div>
+        </div>
+    </div>
+    <div>
+    
+
+</body>

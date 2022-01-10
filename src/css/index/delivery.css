@@ -1,0 +1,31 @@
+
+
+.delivery-menu{
+    display: flex;
+    justify-content: space-between;
+    height: 146px;
+}
+
+.delivery-menu-items{
+    justify-content: space-between;
+}
+
+.delivery-text-semibold{
+    font-family: 'Conv_Montserrat-SemiBold';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 30px;
+}
+
+.delivery-text-normal{
+    font-family: 'Conv_Montserrat-Medium';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 30px;
+}
+
+.map{
+    margin-top: 33px;
+}

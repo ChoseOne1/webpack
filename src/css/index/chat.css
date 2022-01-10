@@ -1,0 +1,147 @@
+.chat{
+    position: fixed;
+    width: 435px;
+    height: 600px;
+    background-color: white;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    bottom: -550px;
+    right: 30px;
+    overflow: hidden;
+    box-sizing: border-box;
+    transition: 0.5s;
+  
+}
+
+.vector-background-img{
+    background-image: url("../../image/Vector-5.png");
+    width: 435px;
+    height: 103px;
+    
+}
+
+.online-consultant{
+    position: absolute;
+    top: 26px;
+    left: 30%;
+    font-family: 'Conv_Montserrat-Medium';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    color: #5E5E5E;
+}
+
+.chat-section{ 
+    position: absolute;
+    width: 435px;
+    height: 348px;
+    margin-top: 20px;
+}
+
+.chat-text{
+    position: relative;
+    box-sizing: border-box;
+    border-radius: 10px 0px 0px 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    resize: none;
+    padding: 7px;
+    width: 280px;
+    height: 84px;
+    font-family: 'Conv_Montserrat-Medium';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    color: #000000;
+    overflow: -moz-scrollbars-none;
+    border-color: aliceblue;
+}
+
+.chat-text::placeholder{
+    position: absolute;
+    left: 10px;
+    top: 30px;
+    font-family: 'Conv_Montserrat-Regular';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    color: #ADADAD;
+    text-align: center;
+}
+
+.chat-text::-webkit-scrollbar { 
+    width: 0; 
+}
+
+.greetings-messege{
+    position: absolute;
+    top: 50%;
+    right: 24px;
+    height: 88px;
+    background: #F1F1F1;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.15);
+    border-radius: 10px;
+}
+
+.greetings-messege-text{
+    font-family: 'Conv_Montserrat-Medium';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    color: #000000;
+    box-sizing: border-box;
+    padding: 10px;
+    margin-top: 25px;
+}
+
+.exit{
+    width: 20px;
+    height: 20px;
+    background-color: aqua;
+}
+
+.hide{
+    position: absolute;
+    left: 15px;
+    font-family: 'Conv_Montserrat-Medium';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    color: #000000;
+    box-sizing: border-box;
+    background: transparent;
+    margin-top: 25px;
+    border: none;
+}
+
+.chat-send{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    top: 400px;
+}
+
+.chat-input{
+    display: relative;
+    bottom: -30px;
+}
+
+#send-message{
+    font-family: 'Conv_Montserrat-Medium';
+    width: 100px;
+    height: 84px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    background-color: #B8E986;
+    border-radius: 0px 10px 10px 0px;
+    border: none;
+    transition: 0.5s;
+}
+
+#send-message:hover{
+    background-color: #91bb64;
+    transition: 0.5s;
+}

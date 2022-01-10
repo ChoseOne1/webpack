@@ -1,0 +1,1 @@
+(()=>{"use strict";let t=document.querySelector(".hide"),e=document.querySelector(".chat");t.addEventListener("click",(function(){"скрыть"==t.textContent?(e.style.bottom="-550px",t.textContent="раскрыть"):"раскрыть"==t.textContent&&(e.style.bottom="0px",t.textContent="скрыть")})),async function(){(await fetch("insex.html")).ok&&console.log("s")}()})();

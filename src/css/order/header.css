@@ -1,0 +1,204 @@
+
+.header-inner{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin-top: 21px;
+    height: 40px;
+}
+/* -----------------------logo--------------------- */
+
+.logo{
+    background: url(../../image/Logo.png);
+    width: 34px;
+    height: 40px;
+}
+/*---------------------- menu -------------------*/
+
+.header-nav{
+    left: 9.43%;
+    right: 46.56%;
+    top: 17.02%;
+    bottom: 0%;
+    flex-basis: 70%;
+}
+
+.nav{
+    display: inline-block;
+    vertical-align:bottom;
+    font-family: 'Conv_Montserrat-Medium';
+    color: black;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 17px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: -5px 5px;
+    text-decoration: none;
+    padding: 5px;
+}
+.nav:hover{
+    background: #E0FFC1;
+    border-radius: 10px;
+    transition: 0.4s;
+}
+
+.header-basket{
+    display: flex;
+    justify-content: space-around;
+    
+}
+/*-------------------- basket, search, call-------------------- */
+
+
+
+.search{
+    background-image: url(../../image/search.png);
+    background-color: #E7E7E7;
+    background-repeat: no-repeat;
+    background-position: 42px, 1px, 3px, 5px;
+    width: 61px;
+    height: 18px;
+    border-radius: 10px;
+    margin: 0 5px;
+}
+
+.basket{
+    position: relative;
+    background-image: url(../../image/basket.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 40px;
+    height: 40px;
+    margin: 0 5px;
+    margin-right: 70px;
+    cursor: pointer;
+}
+
+.basket-number{
+    /* display: none; */
+    font-family: 'Conv_Montserrat-SemiBold';
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.40);
+    position: absolute;
+    background-color: red;
+    width: 33px;
+    height: 33px;
+    border-radius: 16px;
+    margin-right: 20px;
+    right: -28px;
+    top: -14px;
+    text-align: center;
+    font-size: 22px;
+    line-height: 33px;
+}
+
+.nav-call{
+    display: none;
+    font-family: 'Conv_Montserrat-Medium';
+    color: black;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 17px;
+    border-radius: 10px 0px 0px 10px;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.40);
+    border-color: grey;
+    width : 200px;
+    height: 30px;
+    padding-left: 14px;
+
+}
+
+.nav-call-sub{
+    display: none;
+    font-family: 'Conv_Montserrat-Medium';
+    color: black;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 17px;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.40);
+    background-color:#B8E986;
+    height: 36px;
+    border-radius: 0px 10px 10px 0px;
+    margin-left: -2px;
+}
+
+input[type="number"]::-webkit-outer-spin-button, 
+input[type="number"]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+input[type="number"] {
+    -moz-appearance: textfield;
+}
+
+
+.intro-liv{
+    display: flex;
+    justify-content: space-between;
+} 
+
+.intro-inner{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.intro-title{
+    font-family: 'Conv_Montserrat-Medium';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 44px;
+    text-align: center;
+    color: #000000;
+    margin-top: 136px;
+
+}
+
+.intro-sup{
+    font-family: 'Conv_Montserrat-Medium';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    text-align: center;
+    color: #000000;
+    margin-top: 41px;
+}
+
+.intro-button{
+    width: 132px;
+    height: 36px;
+    border-radius: 10px;
+    background-color: #B8E986;
+    margin-top: 40px;
+    transition: 0.2s;
+}
+
+.intro-button-text{
+    display: inline-block;
+    font-family: 'Conv_Montserrat-Medium';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 15px;
+    text-align: center;
+    color: #000000;
+    padding: 10px 5px;
+    text-decoration: none;
+}
+.intro-button:hover{
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    transition: 0.2s;
+}
+
+.intro-background{
+    background-image: url(../../image/Frame_12.png);
+    background-repeat: no-repeat;
+    background-position: 585px 22px;
+    width: 529px;
+    height: 546px;
+    flex-basis: 51%;
+    margin-top: -50px;
+}

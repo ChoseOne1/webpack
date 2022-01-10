@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Заказ фруктов и овощей</title>
+        <link rel="stylesheet" href="../src/css/index/style.css">
+        <script async src="../src/js/chat.js"></script>
+        <script async src="../src/js/test.js"></script>
+        <script defer src="../src/js/header.js"></script>
+        <!-- <script type="module" async src="js/basket.js"></script> -->
+
+    </head>
+</html>
+<body>
+    <div class="container">
+        <div class="container intro-background">
+            <div class="header-inner">
+                <a href="../index.html">
+                    <div class="header-logo">
+                        <img class="logo" src="../src/image/Logo.png" 
+                        width="34"
+                        height="34"
+                        alt="">
+                    </div>
+                </a>
+                <nav class="header-nav">
+                    <a href="../src/menu.html" class="nav">Ассортимент</a>
+                    <a href="#" class="nav contact">Контакты</a>
+                    <a href="#" class="nav call"  >Обратная связь</a>
+                    <input  type="tel" maxlength="10" class="nav-call" placeholder="введите номер без 8" >
+                    <input type="submit" class="nav-call-sub">
+                </nav>
+                <a href="../src/basket.html">
+                    <div class="header-basket">
+                        <div class="basket"><span class="basket-number">5</span></div>
+                    </div>
+                </a>
+            </div>
+
+            <!-- ---------------header----------------- -->
+            <div class="intro-liv">
+                <div class="intro-inner">
+                    <h1 class="intro-title">
+                         Свежие овощи и фрукты<br> по доступным ценам 
+                    </h1>
+                    <h2 class="intro-sup">
+                        с доставкой на дом 
+                    </h2>
+                    <div class="intro-button">
+                        <a href="../src/menu.html" class="intro-button-text">Выбрать продукты</a>
+                    </div>
+                </div>  
+            </div>
+        </div> 
+    </div>
+                    
+
+ 
+    
+    <!-- ------------------categories------------ -->
+
+    <div class="separator">
+        <p class="separator-text">- Ассортимент -</p>
+    </div>        
+ 
+    <div class="container">
+        <div class="categories-items">
+            <div class="vegetable categories-items-background">
+            <p class="categories-items-text">Овощи</p>
+            </div>
+            <div class="fruits categories-items-background">
+                <p class="categories-items-text">Фрукты</p>
+            </div>
+        </div>
+        <div class="categories-items">
+            <div class="berries categories-items-background">
+                <p class="categories-items-text">Ягоды</p>
+            </div>
+            <div class="nuts categories-items-background">
+                <p class="categories-items-text">Орехи</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- ---------------------delivery---------------------------- -->
+
+    <div class="separator">
+        <p class="separator-text">- Доставка и оплата -</p>
+    </div>
+
+        <div class="container">
+            <div class="delivery-menu">
+                <div class="delivery-menu-items">
+                    <a class="delivery-text-semibold">Доставка по Москве и области</a><br>
+                    <a class="delivery-text-normal">В любое удобное для Вас место</a><br>
+                    <a class="delivery-text-semibold">Ежедневно с 9:00 до 19:00</a>
+                </div>
+                <div class="delivery-menu-items">
+                    <a class="delivery-text-semibold">Стоимость доставки</a><br>
+                    <a class="delivery-text-normal">В предлах Мкад  200р.</a><br>
+                    <a class="delivery-text-normal">За Мкад до 15км 300р. </a><br>
+                    <a class="delivery-text-normal">За Мкад свыше 15км + 20р./ Км </a>
+                </div>
+                <div class="delivery-menu-items">
+                    <a class="delivery-text-semibold">Способ оплаты</a><br>
+                    <a class="delivery-text-normal">Наличными</a><br>
+                    <a class="delivery-text-normal">Банковский перевод</a>
+                </div>
+            </div>
+            <div class="map">
+                <script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3Afa92ec6da2b00764f2ca925201aad7f9deeaf911e52e854e00425902d5064d48&amp;width=1180&amp;height=639&amp;lang=ru_RU&amp;scroll=false"></script>
+            </div>
+        </div>  
+
+
+        <!-- ----------------------------------futer-------------------------------- -->
+
+
+    <div class="container">
+        <div class="vector">
+            <div class="contacts">
+                <div class="contacts-box">
+                <p class="contacts-text">Телефон: 8-800-355-15</p>
+                <p class="contacts-text">Whatsapp: <a href="#" class="contacts-text-2">123123</a></p>
+                <p class="contacts-text">E-mail: <a href="#" class="contacts-text-2">123123</a></p>
+                <p class="contacts-text">Адрес: <a href="#" class="contacts-text-2">пр. Ленина 3а</a></p>
+                </div>  
+            </div>
+        </div>
+    </div>
+    <div>
+        <div class="chat">
+            <div class="vector-background-img">
+                <button class="hide">раскрыть чат</button>
+                <p class="online-consultant">Онлайн - консультант</p>
+            </div>
+            <div class="chat-section">
+                <div class="greetings-messege"><p class="greetings-messege-text">Добрый день. Чем могу Вам помочь?</p></div>
+            </div>
+            <div class="chat-input">
+                <form method="POST" class="chat-send">
+                    <textarea placeholder="наберите сообщение и нажмите отправить" class="chat-text" ></textarea>
+                    <button id="send-message">отправить</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    
+
+</body>

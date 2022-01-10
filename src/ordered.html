@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>basket</title>
+    <link rel="stylesheet" href="css/ordered/style.css">
+    <script defer src="./js/header.js"></script>
+    <!-- <script src="./js/ordered.js"></script> -->
+</head>
+<body>
+    <div class="container">
+        <div class="container intro-background">
+            <div class="header-inner">
+                <a href="../index.html">
+                    <div class="header-logo">
+                        <img class="logo" src="./image/Logo.png" 
+                        width="34"
+                        height="34"
+                        alt="">
+                    </div>
+                </a>
+                <nav class="header-nav">
+                    <a href="menu.html" class="nav">Ассортимент</a>
+                    <a href="#" class="nav contact">Контакты</a>
+                    <a href="#" class="nav call"  >Обратная связь</a>
+                    <input  type="tel" maxlength="10" class="nav-call" placeholder="введите номер без 8" >
+                    <input type="submit" class="nav-call-sub">
+                </nav>
+                <a href="./basket.html">
+                    <div class="header-basket">
+                        <div class="basket"><span class="basket-number">5</span></div>
+                    </div>
+                </a>
+            </div>
+            <div class="basket-nav-text">Оформление заказа</div>
+            <div class="basket-bloc">
+                <div class="ordered-delivery-address">Адрес доставки</div>
+                <div class="ordered-box-our">
+                    <div class="ordered-box">
+                        <input required class="ordered-input" placeholder="Имя*">
+                        <input required class="ordered-input" placeholder="Фамилия*">
+                        <input required class="ordered-input" placeholder="Улица*">
+                        <input required class="ordered-input" placeholder="Дом*">
+                        <input required class="ordered-input" placeholder="квартира*">
+                        <input required type="tel" class="ordered-input" placeholder="телефон*">
+                        <input type="email" class="ordered-input" placeholder="@E-mail">
+                    </div>
+                    <div class="oredered-box-pay">
+                        <div class="ordered-box-pay-right-menu">
+                            <div class="ordered-box-pay-text">
+                                <p class="ordered-box-pay-par">Оплата производится переводом клиенту сбербанка,
+                                    или можно оплатить наличными курьеру при получении заказа.</p>
+                                <p class="ordered-box-pay-par">После оформления заказа мы свяжемся с вами по указанному номеру телефона в течении 10 минут.</p>
+                                <p class="ordered-box-pay-par">Стоимость доставки по вашему адресу составляет 150р.</p>
+                                <p class="ordered-box-pay-par">Стоимость доставки автоматически прибавляется к сумме заказнного товара</p>
+                            </div>
+                            <div class="ordered-checkbox">
+                                <div class="ordered-checkbox-res">
+                                    <div class="ordered-checkbox-box">
+                                        <input type="radio" class="ordered-radio-btn" id="btn1" checked name="rb1">
+                                        <label for="btn1"><span></span>оплатить картой</label>
+                                    </div>
+                                    <div class="ordered-checkbox-box">
+                                        <input type="radio" class="ordered-radio-btn" id="btn2" name="rb1">
+                                        <label for="btn2"><span></span>оплатить при получении</label>
+                                    </div>
+                                </div>
+                                <a href="order.html">
+                                    <button class="ordered-button-sub">Оформить заказ</button>
+                                </a>
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div>
+                <div class="ordered-price-box">
+                    <div class="ordered-comment">
+                        <textarea placeholder="комментарий к заказу" class="ordered-text" ></textarea>
+                    </div>
+                    <div class="ordered-price">
+                        <div class="ordered-price-box-text">
+                            <div class="ordered-price-text">Сумма заказа вместе с доставкой</div>
+                            <div class="ordered-price-text-sum">1500<span>&nbspруб</span></div>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="vector">
+            <div class="contacts">
+                <div class="contacts-box">
+                    <p class="contacts-text">Телефон: 8-800-355-15</p>
+                    <p class="contacts-text">Whatsapp: <a href="#" class="contacts-text-2">123123</a></p>
+                    <p class="contacts-text">E-mail: <a href="#" class="contacts-text-2">123123</a></p>
+                    <p class="contacts-text">Адрес: <a href="#" class="contacts-text-2">пр. Ленина 3а</a></p>
+                </div>  
+            </div>
+        </div>
+    </div>
+</body>
+</html>

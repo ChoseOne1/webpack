@@ -1,0 +1,232 @@
+.basket-bloc{
+    width: 1190;
+    min-height: 400px;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    margin-top: 20px;
+    background-color: white;
+    z-index: 99999;
+    position: relative;
+    padding-bottom: 20px;
+}
+
+.basket-nav-text{
+    display: inline-block;
+    font-family: 'Conv_Montserrat-Medium';
+    color: black;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 17px;
+    margin-top: 50px;
+
+}
+
+.basket-box{
+    display: flex;
+    justify-content: space-between;
+    border-radius: 10px;
+
+    
+}
+
+.ordered-delivery-address{
+    display: inline-block;
+    font-family: 'Conv_Montserrat-Medium';
+    color: black;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 17px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.ordered-box{
+    width: 500px;
+    margin: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+    grid-template-rows: 40px 40px 40px;
+    gap: 20px;
+    min-height: 216px;
+}
+
+.ordered-input{
+    font-family: 'Conv_Montserrat-Medium';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 17px;
+    width: 272px;
+    height: 30px;
+    border-radius: 10px;
+    border-color: rgba(229, 221, 231, 0.377);
+}
+
+.ordered-box-our{
+    display: flex;
+    justify-content: space-between;
+}
+
+.oredered-box-pay{
+    width: 554px;
+    height: 400px;
+    background-color: #E7E7E7;
+    margin-right: 20px;
+    margin-top: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+.ordered-price-box{
+    width: 597px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: -150px;
+}
+
+.ordered-comment{
+    border-radius: 10px;
+    margin-left: 20px;
+    
+}
+
+.ordered-price{
+    width: 211px;
+    height: 150px;
+    background-color: #E7E7E7;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+
+.ordered-price-text-sum{
+    margin-top: 23px;
+    font-size: 25px;
+}
+
+.ordered-price-box-text{
+    font-family: 'Conv_Montserrat-Medium';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 23px;
+    color: #000000;
+    text-align: center;
+    width: 200px;
+    margin: 0 5px;
+    margin-top: 30px;
+    
+}
+
+
+
+.ordered-text{
+    display: block;
+    position: relative;
+    box-sizing: border-box;
+    border-radius:10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    resize: none;
+    padding: 7px;
+    width: 345px;
+    height: 150px;
+    font-family: 'Conv_Montserrat-Medium';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 17px;
+    color: #000000;
+    overflow: -moz-scrollbars-none;
+    border-color: rgba(181, 178, 182, 0.377);
+
+}
+
+.ordered-text::placeholder{
+    position: absolute;
+    left: 10px;
+    top: 30px;
+    font-family: 'Conv_Montserrat-Regular';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 17px;
+    color: #ADADAD;
+    text-align: center;
+    text-indent: 20px;
+}
+
+.ordered-box-pay-text{
+    font-family: 'Conv_Montserrat-Medium';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 17px;
+    padding: 30px;
+    color: rgb(34, 33, 33);
+}
+
+.ordered-box-pay-par{
+    text-indent: 20px;
+    margin-top: 10px;
+}
+
+.ordered-checkbox{
+    margin: 0 30px;
+    margin-top: 13px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.ordered-button-sub{
+    font-family: 'Conv_Montserrat-Medium';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 17px;
+    color: rgb(34, 33, 33);
+    width: 200px;
+    height: 85px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.15);
+    border: none;
+    background-color:#B8E986;
+    transition: 0.5s;
+
+}
+
+.ordered-button-sub:hover{
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.25);
+    transition: 0.5s;
+}
+
+
+.ordered-checkbox-box{
+    margin-bottom: 38px;
+}
+
+
+.ordered-radio-btn {
+    display:none;
+}
+
+.ordered-radio-btn + label {
+    font-family: 'Conv_Montserrat-Medium';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 17px;
+    color: rgb(34, 33, 33);
+}
+
+.ordered-radio-btn + label span {
+    display:inline-block;
+    width:19px;
+    height:19px;
+    margin:-2px 10px 0 0;
+    vertical-align:middle;
+    cursor:pointer;
+    background: url('../../image/radio-btn/radio-button-off_1.svg'), no-repeat;
+}
+
+.ordered-radio-btn:checked + label span {
+    background: url('../../image/radio-btn/radio-button-on_1.svg'), no-repeat;
+}
